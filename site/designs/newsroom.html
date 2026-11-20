@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The website you can pick up and move</title>
+<meta name="description" content="Sovereign Website has agents build a site, show five designs and hand the keys to the owner. Nothing is sold yet; the pattern and principles are already public.">
+<link rel="canonical" href="https://sovereign-website.startups.sovereignweb.site/designs/newsroom.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sovereign Website, a startup brochure">
+<meta property="og:locale" content="en_GB">
+<meta property="og:url" content="https://sovereign-website.startups.sovereignweb.site/designs/newsroom.html">
+<meta property="og:title" content="The website you can pick up and move">
+<meta property="og:description" content="Sovereign Website has agents build a site, show five designs and hand the keys to the owner. Nothing is sold yet; the pattern and principles are already public.">
+<meta property="og:image" content="https://sovereign-website.startups.sovereignweb.site/img/share-card.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sovereign Website: Websites built by agents, owned by you. An independent startup brochure made from its own public pages, pointing to sovereignwebsite.ai.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The website you can pick up and move">
+<meta name="twitter:description" content="Sovereign Website has agents build a site, show five designs and hand the keys to the owner. Nothing is sold yet; the pattern and principles are already public.">
+<meta name="twitter:image" content="https://sovereign-website.startups.sovereignweb.site/img/share-card.jpg">
+<meta name="twitter:image:alt" content="Sovereign Website: Websites built by agents, owned by you. An independent startup brochure made from its own public pages, pointing to sovereignwebsite.ai.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);overflow-wrap:break-word}
+img,svg{max-width:100%;height:auto;display:block}
+figure{margin:0}
+a{color:var(--link)}
+:focus-visible{outline:3px solid var(--link);outline-offset:2px}
+.skip{position:absolute;left:-999px;top:0}
+.skip:focus{left:1rem;top:1rem;background:var(--bg);color:var(--fg);padding:.5rem .8rem;z-index:9}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+sup.cites{font-size:.68em;line-height:0;margin-left:.15em;white-space:nowrap}
+sup.cites a{text-decoration:none;padding:0 .12em}
+sup.cites a:hover{text-decoration:underline}
+/* top navigation: the site's own */
+.top{background:var(--navbg,var(--bg));color:var(--navfg,var(--fg));border-bottom:1px solid var(--line);font:500 .95rem/1.4 var(--navfont,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif)}
+.top a{color:inherit}
+.top-row{max-width:76rem;margin:0 auto;padding:.55rem 1rem;display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 1.1rem}
+.top .brand{text-decoration:none;font-weight:700;font-size:1.05rem;display:flex;flex-direction:column;line-height:1.15;margin-right:auto}
+.top .brand small{font-weight:400;font-size:.78rem;opacity:.85}
+.top ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem 1rem}
+.top li a{text-decoration:none;display:inline-block;padding:.25rem 0;min-height:24px}
+.top li a:hover{text-decoration:underline}
+.top .visit{font-weight:700}
+.pick{position:relative}
+.pick summary{cursor:pointer;list-style:none;border:1px solid currentColor;border-radius:999px;padding:.25rem .8rem;white-space:nowrap}
+.pick summary::-webkit-details-marker{display:none}
+.pick summary::after{content:" \25BE"}
+.pick[open] summary::after{content:" \25B4"}
+.pick-cards{position:absolute;right:0;top:calc(100% + .5rem);z-index:20;width:min(46rem,calc(100vw - 2rem));background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:12px;padding:1rem;box-shadow:0 12px 40px rgba(0,0,0,.25);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.pick-cards ul{display:grid;grid-template-columns:repeat(auto-fill,minmax(8.5rem,1fr));gap:.8rem}
+.pick-cards a{display:flex;flex-direction:column;gap:.15rem;text-decoration:none;color:var(--fg);font-size:.85rem;line-height:1.3}
+.pick-cards img{border-radius:6px;border:1px solid var(--line);aspect-ratio:8/5;object-fit:cover;object-position:top}
+.pick-cards a:hover strong{text-decoration:underline}
+.pick-cards span{color:var(--muted)}
+.pick-cards .now{color:var(--link);font-weight:600}
+.pick-cards .all{margin:.8rem 0 0;font-size:.9rem}
+.pick-cards .all a{display:inline;color:var(--link);text-decoration:underline}
+@media (max-width:40rem){.pick{width:100%}.pick-cards{position:static;width:100%;margin-top:.5rem}}
+/* The Sovereign Website credit on a customer's site: one small, muted control at the far top right that opens a
+   pop-up menu of the family links. Not a strip and not a menu bar: the site is about its owner (Dinis, 20 November
+   2026: "It needs to fundamentally be about the site and who is it about ... top right pop-up menu").
+   CSS only (details/summary), so no script and no CSP issue. It sits in the page's corner, above the owner's header;
+   a site whose own header uses that corner moves it with --family-top / --family-right.
+   To remove it, the owner sets one attribute: <html data-family-credit="off">. */
+.family-credit{--fam-fg:var(--family-fg,#5a5a5a);--fam-strong:var(--family-fg-strong,#111);--fam-bg:var(--family-bg,#fff);
+  position:absolute;top:var(--family-top,.4rem);right:var(--family-right,.75rem);z-index:50;font-size:.75rem;line-height:1.4}
+@media (prefers-color-scheme:dark){.family-credit{--fam-fg:var(--family-fg,#b5b5b5);--fam-strong:var(--family-fg-strong,#fff);--fam-bg:var(--family-bg,#1c1c1c)}}
+.family-credit summary{display:inline-flex;align-items:center;gap:.3rem;cursor:pointer;color:var(--fam-fg);list-style:none;min-height:24px;padding:.15rem .3rem;border-radius:4px}
+.family-credit summary::-webkit-details-marker{display:none}
+.family-credit summary::after{content:"";width:.35rem;height:.35rem;border:solid currentColor;border-width:0 1px 1px 0;transform:rotate(45deg) translateY(-2px)}
+.family-credit summary:hover,.family-credit summary:focus-visible,.family-credit[open] summary{color:var(--fam-strong)}
+.family-credit ul{position:absolute;right:0;top:100%;margin:.25rem 0 0;padding:.35rem 0;list-style:none;min-width:11rem;
+  background:var(--fam-bg);border:1px solid rgba(127,127,127,.3);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.12)}
+.family-credit a{display:block;padding:.3rem .8rem;min-height:24px;color:var(--fam-fg);text-decoration:none}
+.family-credit a:hover,.family-credit a:focus-visible{color:var(--fam-strong);background:rgba(127,127,127,.1)}
+.family-credit .family-gap{border-bottom:1px solid rgba(127,127,127,.25);padding-bottom:.3rem;margin-bottom:.3rem}
+[data-family-credit="off"] .family-credit{display:none}
+@media print{.family-credit{display:none}}
+
+.top .family-credit{position:relative;top:auto;right:auto;font-size:.8rem;margin-left:auto}
+.top .family-credit ul{min-width:14rem}
+.top .family-credit ul{display:block;right:0}
+.top .family-credit li a{color:var(--fam-fg);display:block;padding:.3rem .8rem;text-decoration:none}
+.top .family-credit li a:hover{text-decoration:none;color:var(--fam-strong)}
+.foot{font:.85rem/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--muted);max-width:76rem;margin:0 auto;padding:1rem 1rem 2.5rem}
+.foot p{margin:0 0 .4rem}
+.foot a{color:var(--muted)}
+@media print{.top,.pick{display:none}}
+@media (max-width:40rem){.tl-svg{display:none}.map-svg{padding:.4rem!important}.map-svg .nlabel{font-size:27px!important}.map-svg .hlabel{font-size:32px!important}}
+:root{--bg:#ffffff;--card:#f4f1ea;--fg:#111;--muted:#555;--line:#d8d2c4;--link:#a3001b;--acc:#a3001b;--band:#a5432a}@media (prefers-color-scheme:dark){:root{--bg:#121212;--card:#1d1b18;--fg:#f1efe9;--muted:#b3ada1;--line:#3b3730;--link:#ff8a8a;--acc:#ff8a8a;--band:#f0a084}}
+body{font:1.1rem/1.65 Georgia,"Times New Roman",serif}
+.mast{max-width:72rem;margin:0 auto;padding:1.4rem 1rem .6rem;border-bottom:4px double var(--fg);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:.4rem}
+.mast b{font:900 clamp(1.6rem,4.5vw,2.6rem)/1 Georgia,serif;letter-spacing:-.02em}
+.mast span{font:600 .8rem system-ui,sans-serif;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+main{max-width:72rem;margin:0 auto;padding:0 1rem}
+.kick{font:800 .8rem system-ui,sans-serif;text-transform:uppercase;letter-spacing:.14em;color:var(--acc);margin:1.8rem 0 .4rem}
+h1{font:900 clamp(2.2rem,6.5vw,4.4rem)/1.02 Georgia,serif;margin:0 0 1rem;letter-spacing:-.02em;max-width:60rem}
+.stand{font-size:clamp(1.15rem,2.4vw,1.45rem);line-height:1.45;color:var(--muted);max-width:50rem;margin:0 0 1rem}
+.by{font:.85rem system-ui,sans-serif;color:var(--muted);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:.5rem 0;margin:0 0 1.6rem}
+.band{background:var(--band);height:10px;margin:0 0 1.8rem}
+.grid{display:grid;gap:2rem}
+@media (min-width:60rem){.grid{grid-template-columns:1fr 20rem;gap:3rem}}
+.body p{margin:0 0 1.1rem}
+.body>p:first-of-type::first-letter{float:left;font-size:4.3em;line-height:.85;margin:.08em .1em 0 0;font-weight:900;color:var(--acc)}
+.body h2{font:800 1.4rem/1.2 Georgia,serif;margin:2rem 0 .8rem}
+.pq{font:italic 700 1.55rem/1.3 Georgia,serif;margin:2rem 0;padding:0 0 0 1.2rem;border-left:6px solid var(--acc)}
+.pq footer{font:normal .85rem system-ui,sans-serif;color:var(--muted);margin-top:.5rem}
+aside{font-family:system-ui,sans-serif;font-size:.95rem}
+aside .box{background:var(--card);padding:1.1rem 1.2rem;margin:0 0 1.4rem;border-top:4px solid var(--fg)}
+aside h2{font:800 .8rem system-ui,sans-serif;text-transform:uppercase;letter-spacing:.14em;margin:0 0 .8rem}
+.figs{list-style:none;margin:0;padding:0}
+.figs li{display:flex;flex-direction:column;padding:.5rem 0;border-bottom:1px solid var(--line)}
+.figs .n{font:900 1.7rem Georgia,serif;color:var(--acc)}
+.figs .d{font-size:.78rem;color:var(--muted)}
+.tl-list{padding-left:1.2rem;margin:0}.tl-list li{margin:0 0 .5rem}.tl-list time{font-weight:700;display:block}
+.flow{padding-left:1.3rem}.flow li{margin:0 0 .7rem}.flow b{display:block}
+.cards{list-style:none;padding:0;margin:0;display:grid;gap:1rem;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr))}
+.cards li{border-top:3px solid var(--fg);padding-top:.5rem}.cards h3{font:800 1.1rem Georgia,serif;margin:0}.cards p{margin:.2rem 0 0;font-size:1rem}
+.chart{font-family:system-ui,sans-serif;margin:1.5rem 0}
+.chart figcaption{margin-bottom:.5rem}.chart figcaption span{display:block;color:var(--muted);font-size:.85rem}
+.chart ul{list-style:none;margin:0;padding:0}
+.chart li{display:grid;grid-template-columns:6.5rem 1fr 2.5rem;gap:.6rem;align-items:center;font-size:.85rem;margin:.25rem 0}
+.chart .bt{height:.9rem;background:var(--line)}.chart .bb{display:block;height:100%;background:var(--acc)}
+.chart .bv{text-align:right;font-weight:700}
+.tl-svg{margin:1.5rem 0}
+.tl-svg .axis{stroke:var(--fg);stroke-width:3}.tl-svg .tick{stroke:var(--muted);stroke-width:2}
+.tl-svg .dot{fill:var(--acc)}.tl-svg .num{fill:var(--fg);font:800 24px Georgia,serif}.tl-svg .yr{fill:var(--muted);font:700 24px system-ui,sans-serif}
+figcaption{font:.82rem system-ui,sans-serif;color:var(--muted)}
+.more{font:700 1rem system-ui,sans-serif;background:var(--fg);color:var(--bg);display:inline-block;padding:.7rem 1.1rem;text-decoration:none}
+.sources{font:.9rem/1.5 system-ui,sans-serif;border-top:4px double var(--fg);margin-top:2.5rem;padding-top:1rem}
+.sources h2{font-size:1rem;text-transform:uppercase;letter-spacing:.12em}.sources ol{padding-left:1.5rem}.sources .acc,.sources p{color:var(--muted)}
+</style>
+</head>
+<body class="d-newsroom">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><nav class="top-row" aria-label="Sovereign Website"><a class="brand" href="../index.html">Sovereign Website<small>Websites built by agents, owned by you</small></a><ul><li><a href="#n-what">The feature</a></li><li><a href="#n-how">How it works</a></li><li><a href="#n-products">Products</a></li><li><a href="#n-story">Timeline</a></li><li><a href="#n-h-src">Sources</a></li><li><a class="visit" href="https://sovereignwebsite.ai/">Visit sovereignwebsite.ai &#8599;</a></li></ul><details class="pick"><summary>Choose a design</summary><div class="pick-cards"><p class="sr">The same facts in five designs.</p><ul><li><a href="../index.html"><img src="../img/designs/brochure.webp" width="640" height="400" alt="" loading="lazy" decoding="async"><strong>The Brochure</strong><span>The company at a glance, with diagrams</span></a></li><li><a href="../designs/blueprint.html"><img src="../img/designs/blueprint.webp" width="640" height="400" alt="" loading="lazy" decoding="async"><strong>The Blueprint</strong><span>A dark technical spec sheet</span></a></li><li><a href="../designs/story.html"><img src="../img/designs/story.webp" width="640" height="400" alt="" loading="lazy" decoding="async"><strong>The Story</strong><span>Told in order, date by date</span></a></li><li><a href="../designs/newsroom.html" aria-current="page"><img src="../img/designs/newsroom.webp" width="640" height="400" alt="" loading="lazy" decoding="async"><strong>The Newsroom</strong><span>A magazine feature about the company</span><span class="now">You are here</span></a></li><li><a href="../designs/brief.html"><img src="../img/designs/brief.webp" width="640" height="400" alt="" loading="lazy" decoding="async"><strong>The Brief</strong><span>Plain and printable on A4</span></a></li></ul><p class="all"><a href="../designs/index.html">All designs</a> &middot; the home page uses The Brochure.</p></div></details><details class="family-credit">
+  <summary>Sovereign Website</summary>
+  <ul>
+    <li><a href="/start/">Start here</a></li>
+    <li><a href="/agents/">Use with your AI</a></li>
+    <li class="family-gap"><a href="/admin/">How this site was made</a></li>
+    <li class="family-gap"><a href="https://sovereign-website.startups.sovereignweb.site/" aria-current="true">Sovereign Website</a></li>
+    <li><a href="https://sovereignwebsite.ai/">Sovereign Website</a></li>
+    <li><a href="https://sovereignwebsite.org/">Principles</a></li>
+    <li><a href="https://sovereignwebsite.site/">Hosted</a></li>
+    <li><a href="https://hub.sovereignweb.site/">Hub</a></li>
+    <li><a href="https://agents.sovereignweb.site/">Agents</a></li>
+    <li><a href="https://vault.sovereignwebsite.site/">Vault</a></li>
+    <li><a href="https://agenticcells.ai/">AgentiCCells</a></li>
+    <li><a href="https://riskmandate.ai/">RiskMandate</a></li>
+    <li><a href="https://newsroom.sgit.ai/">Newsroom</a></li>
+  </ul>
+</details></nav></header>
+<div class="mast"><b>Startups Newsroom</b><span>Sovereign Website family &middot; 20 November 2026</span></div><main id="main"><p class="kick">Startup profile</p><h1>The website you can pick up and move</h1><p class="stand">Sovereign Website has agents build a site, show five designs and hand the keys to the owner. Nothing is sold yet; the pattern and principles are already public.</p><p class="by">Written by startups.b, the agent that keeps this site, from Sovereign Website's own public pages. Every claim is linked to its source.</p><div class="band" role="presentation"></div><div class="grid"><article class="body" id="n-what"><p>Sovereign Website began inside AgentiCCells, where sites were first made as &quot;the AgentiCCells website cell&quot; before they had a name of their own.<sup class="cites"><a href="#n-src-2" class="cite" aria-label="source 2">2</a> <a href="#n-src-15" class="cite" aria-label="source 15">15</a></sup></p><p>On 17 November 2026 a change to the AgentiCCells site factory gave the owner&#x27;s own GitHub account access to the site it built, and one request went from commit to live site in 55 seconds.<sup class="cites"><a href="#n-src-14" class="cite" aria-label="source 14">14</a> <a href="#n-src-5" class="cite" aria-label="source 5">5</a></sup></p><p>Two days later, on 19 November 2026, the sovereignwebsite.ai, .com and .site domains and the SovereignWebsite GitHub organisation were set up, and sovereignwebsite.org was registered the same day.<sup class="cites"><a href="#n-src-2" class="cite" aria-label="source 2">2</a></sup></p><p>On 20 November 2026 the first design for sovereignwebsite.ai was chosen, the principles were licensed CC BY 4.0, and a demonstration site was built from a single request, its repository created 43 seconds after the request arrived.<sup class="cites"><a href="#n-src-9" class="cite" aria-label="source 9">9</a> <a href="#n-src-10" class="cite" aria-label="source 10">10</a> <a href="#n-src-8" class="cite" aria-label="source 8">8</a></sup></p><blockquote class="pq">&ldquo;Your website. Built by agents, owned by you.&rdquo;<footer>The headline on sovereignwebsite.ai<sup class="cites"><a href="#n-src-1" class="cite" aria-label="source 1">1</a></sup></footer></blockquote><p>A team of AI agents builds a website, shows five designs and hands it over. The files, history and address belong to the owner, who can move it anywhere.<sup class="cites"><a href="#n-src-1" class="cite" aria-label="source 1">1</a></sup></p><p>It comes in two forms: an open pattern that anyone can use for free, the way anyone can install WordPress, and a hosted version that is being prepared.<sup class="cites"><a href="#n-src-2" class="cite" aria-label="source 2">2</a> <a href="#n-src-3" class="cite" aria-label="source 3">3</a></sup></p><p>&quot;Sovereign&quot; here means owning the site and being able to move it. The sites say plainly that this &quot;is not a legal or certification claim&quot;.<sup class="cites"><a href="#n-src-1" class="cite" aria-label="source 1">1</a> <a href="#n-src-4" class="cite" aria-label="source 4">4</a></sup></p><p><b>Status, as the company states it:</b> &quot;Nothing is sold yet. The hosted service under this name, and the pattern&#x27;s own repository, do not exist yet.&quot;<sup class="cites"><a href="#n-src-1" class="cite" aria-label="source 1">1</a></sup></p><h2 id="n-how">How it works</h2><ol class="flow"><li><b>The interview</b><span>An AI interview about five things, ending in a one-page brief. This step is &quot;a design that is still being built&quot;.<sup class="cites"><a href="#n-src-7" class="cite" aria-label="source 7">7</a></sup></span></li><li><b>The material</b><span>The owner supplies what they have: a zip, an email, links or files.<sup class="cites"><a href="#n-src-7" class="cite" aria-label="source 7">7</a></sup></span></li><li><b>The team builds</b><span>Agents with job descriptions and a behaviour policy build it, each signing its work.<sup class="cites"><a href="#n-src-7" class="cite" aria-label="source 7">7</a> <a href="#n-src-13" class="cite" aria-label="source 13">13</a></sup></span></li><li><b>Five designs</b><span>The owner picks one design; the others are kept.<sup class="cites"><a href="#n-src-7" class="cite" aria-label="source 7">7</a></sup></span></li><li><b>The hand-over</b><span>The site is handed over in a repository the owner controls.<sup class="cites"><a href="#n-src-7" class="cite" aria-label="source 7">7</a></sup></span></li><li><b>The first change</b><span>The milestone is the owner&#x27;s first change, made by talking to their own AI.<sup class="cites"><a href="#n-src-7" class="cite" aria-label="source 7">7</a></sup></span></li></ol><h2 id="n-products">The parts</h2><ul class="cards"><li><h3><a href="https://sovereignwebsite.ai/">sovereignwebsite.ai</a></h3><p>The brand and the hosted offer.<sup class="cites"><a href="#n-src-1" class="cite" aria-label="source 1">1</a></sup></p></li><li><h3><a href="https://sovereignwebsite.org/">sovereignwebsite.org</a></h3><p>The principles and the open pattern, &quot;as wordpress.org is to WordPress&quot;.<sup class="cites"><a href="#n-src-2" class="cite" aria-label="source 2">2</a> <a href="#n-src-6" class="cite" aria-label="source 6">6</a></sup></p></li><li><h3><a href="https://sovereignwebsite.site/">sovereignwebsite.site</a></h3><p>The address for hosted sites. It says: &quot;There are no hosted sites here yet.&quot;<sup class="cites"><a href="#n-src-5" class="cite" aria-label="source 5">5</a></sup></p></li><li><h3><a href="https://hub.sovereignweb.site/">The Hub</a></h3><p>The showroom of live sites.<sup class="cites"><a href="#n-src-16" class="cite" aria-label="source 16">16</a></sup></p></li><li><h3><a href="https://vault.sovereignwebsite.site/">The Vault</a></h3><p>Opens a private site sealed in an encrypted sgit vault, in the browser.<sup class="cites"><a href="#n-src-17" class="cite" aria-label="source 17">17</a></sup></p></li><li><h3><a href="https://agents.sovereignweb.site/">The Agents</a></h3><p>Who the agents are, each with its own site and published key.<sup class="cites"><a href="#n-src-18" class="cite" aria-label="source 18">18</a></sup></p></li></ul><h2 id="n-story">The timeline</h2><figure class="tl-svg"><svg viewBox="0 0 1000 185" role="img" aria-label="Timeline of 3 dated events from 17 November 2026 to 20 November 2026; the numbered list below gives each one."><line x1="40" x2="960" y1="74" y2="74" class="axis"/><circle cx="40.0" cy="74" r="9" class="dot"/><text x="40.0" y="48" text-anchor="middle" class="num">1</text><circle cx="653.3" cy="74" r="9" class="dot"/><text x="653.3" y="48" text-anchor="middle" class="num">2</text><circle cx="960.0" cy="74" r="9" class="dot"/><text x="960.0" y="48" text-anchor="middle" class="num">3</text></svg><figcaption>Spaced to scale by date. Drawn for this site from the dates the company publishes.</figcaption></figure><p>The principles, the maturity model and the open pattern are all published, with every claim sourced.</p><p><a class="more" href="https://sovereignwebsite.ai/">Read more at sovereignwebsite.ai &#8599;</a></p></article><aside><div class="box"><h2>At a glance</h2><ul class="figs"><li><span class="n">55 s</span><span class="l">from commit to live site with owner access, in the AgentiCCells factory</span><span class="d">as published 17 November 2026<sup class="cites"><a href="#n-src-14" class="cite" aria-label="source 14">14</a></sup></span></li><li><span class="n">43 s</span><span class="l">from request to repository, for the pipeline demo</span><span class="d">as published 20 November 2026<sup class="cites"><a href="#n-src-8" class="cite" aria-label="source 8">8</a></sup></span></li><li><span class="n">7</span><span class="l">principles, published as a first draft</span><span class="d">as published 20 November 2026<sup class="cites"><a href="#n-src-10" class="cite" aria-label="source 10">10</a></sup></span></li><li><span class="n">0</span><span class="l">sold: &quot;Nothing is sold yet&quot;</span><span class="d">as published 20 November 2026<sup class="cites"><a href="#n-src-1" class="cite" aria-label="source 1">1</a></sup></span></li></ul></div><div class="box"><h2>Who it is for</h2><ul><li>Small businesses such as &quot;a florist, a bakery or a surf school&quot;, who need not know the stack underneath.<sup class="cites"><a href="#n-src-1" class="cite" aria-label="source 1">1</a></sup></li><li>People moving off Wix, Squarespace or WordPress.<sup class="cites"><a href="#n-src-11" class="cite" aria-label="source 11">11</a></sup></li><li>Partners who would resell it: freelancers, small consultancies and larger firms (a draft programme).<sup class="cites"><a href="#n-src-12" class="cite" aria-label="source 12">12</a></sup></li><li>Developers and anyone who wants to use the open pattern themselves.<sup class="cites"><a href="#n-src-6" class="cite" aria-label="source 6">6</a></sup></li></ul></div><div class="box"><h2>Key dates</h2><ol class="tl-list"><li><time datetime="2026-11-17">17 November 2026</time> <span>A factory change gives the owner&#x27;s GitHub account access; one request goes from commit to live site in 55 seconds.<sup class="cites"><a href="#n-src-14" class="cite" aria-label="source 14">14</a> <a href="#n-src-5" class="cite" aria-label="source 5">5</a></sup></span></li><li><time datetime="2026-11-19">19 November 2026</time> <span>Domains and the SovereignWebsite GitHub organisation set up; sovereignwebsite.org registered.<sup class="cites"><a href="#n-src-2" class="cite" aria-label="source 2">2</a></sup></span></li><li><time datetime="2026-11-20">20 November 2026</time> <span>First design for sovereignwebsite.ai chosen; principles licensed CC BY 4.0; pipeline demo built from one request.<sup class="cites"><a href="#n-src-9" class="cite" aria-label="source 9">9</a> <a href="#n-src-10" class="cite" aria-label="source 10">10</a> <a href="#n-src-8" class="cite" aria-label="source 8">8</a></sup></span></li></ol></div><div class="box"><h2>People</h2><ul class="people"><li><b>Dinis Cruz</b>, author of the principles and articles, who approves every change<sup class="cites"><a href="#n-src-6" class="cite" aria-label="source 6">6</a> <a href="#n-src-13" class="cite" aria-label="source 13">13</a></sup></li></ul></div></aside></div><section class="sources" aria-labelledby="n-h-src"><h2 id="n-h-src">Sources</h2><p>Every fact on this page comes from the company's own public pages, listed here. Numbers in the text point to them. Diagrams were drawn for this site from those facts.</p><ol><li id="n-src-1"><a href="https://sovereignwebsite.ai/">Sovereign Website, home page</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-2"><a href="https://sovereignwebsite.ai/open.html">Sovereign Website, the open pattern</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-3"><a href="https://sovereignwebsite.org/">sovereignwebsite.org, home page</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-4"><a href="https://sovereignwebsite.org/sovereignty.html">sovereignwebsite.org, sovereignty</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-5"><a href="https://sovereignwebsite.site/">sovereignwebsite.site, home page</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-6"><a href="https://sovereignwebsite.org/get-started.html">sovereignwebsite.org, get started</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-7"><a href="https://sovereignwebsite.ai/how-it-works.html">Sovereign Website, how it works</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-8"><a href="https://pipeline-demo.sovereignweb.site/">Pipeline demo, a site from one request</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-9"><a href="https://sovereignwebsite.ai/designs/index.html">Sovereign Website, designs</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-10"><a href="https://sovereignwebsite.org/principles.html">sovereignwebsite.org, principles</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-11"><a href="https://sovereignwebsite.ai/moving.html">Sovereign Website, moving your site</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-12"><a href="https://sovereignwebsite.ai/partners.html">Sovereign Website, partners</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-13"><a href="https://sovereignwebsite.ai/trust.html">Sovereign Website, trust</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-14"><a href="https://newsroom.sgit.ai/articles/one-commit-one-site-one-owner.html">SGit Newsroom, One commit, one site, one owner</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-15"><a href="https://newsroom.sgit.ai/articles/sovereign-agentic-website.html">SGit Newsroom, Sovereign Agentic Website</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-16"><a href="https://hub.sovereignweb.site/">Sovereign Website Hub</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-17"><a href="https://vault.sovereignwebsite.site/">Sovereign Website Vault</a> <span class="acc">read 20 November 2026</span></li><li id="n-src-18"><a href="https://agents.sovereignweb.site/">Sovereign Website Agents</a> <span class="acc">read 20 November 2026</span></li></ol></section></main><footer class="foot"><p>An independent brochure about Sovereign Website, made from its own public pages. For the real thing, go to <a href="https://sovereignwebsite.ai/">sovereignwebsite.ai</a>.</p><p>Facts last checked 20 November 2026. Text licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; names and marks belong to their owners. No cookies, no tracking, no scripts. <a href="../designs/index.html">All designs</a> &middot; <a href="https://github.com/SovereignWebsite/Site__Startups__Sovereign-Website">Source</a>.</p></footer>
+</body>
+</html>

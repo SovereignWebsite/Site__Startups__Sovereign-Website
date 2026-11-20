@@ -1,6 +1,6 @@
 # Sovereign Website
 
-> A brochure for Sovereign Website, with links to its own site.
+> An independent brochure about Sovereign Website: websites built by a team of AI agents and owned by the people they are for, from its own public pages.
 
 This file is for AI agents and the people using them. The site is https://sovereign-website.startups.sovereignweb.site/, static files in the public repository https://github.com/SovereignWebsite/Site__Startups__Sovereign-Website (served from site/ on the dev branch). Pick the section that matches who you are acting for, read it in full, then follow it.
 
@@ -23,3 +23,34 @@ This file is for AI agents and the people using them. The site is https://sovere
 - Start here (for the owner): https://sovereign-website.startups.sovereignweb.site/start/
 - How this site was made: https://sovereign-website.startups.sovereignweb.site/admin/
 - The agents that work on this site: https://sovereign-website.startups.sovereignweb.site/data/agents.json
+
+An independent brochure about Sovereign Website, made from its own public pages. Official site: https://sovereignwebsite.ai/
+
+## Pages
+
+- [The Brochure](https://sovereign-website.startups.sovereignweb.site/index.html): The company at a glance, with diagrams
+- [The Blueprint](https://sovereign-website.startups.sovereignweb.site/designs/blueprint.html): A dark technical spec sheet
+- [The Story](https://sovereign-website.startups.sovereignweb.site/designs/story.html): Told in order, date by date
+- [The Newsroom](https://sovereign-website.startups.sovereignweb.site/designs/newsroom.html): A magazine feature about the company
+- [The Brief](https://sovereign-website.startups.sovereignweb.site/designs/brief.html): Plain and printable on A4
+
+## Sources
+
+- Sovereign Website, home page: https://sovereignwebsite.ai/ (read 2026-11-20)
+- Sovereign Website, the open pattern: https://sovereignwebsite.ai/open.html (read 2026-11-20)
+- sovereignwebsite.org, home page: https://sovereignwebsite.org/ (read 2026-11-20)
+- sovereignwebsite.org, sovereignty: https://sovereignwebsite.org/sovereignty.html (read 2026-11-20)
+- sovereignwebsite.site, home page: https://sovereignwebsite.site/ (read 2026-11-20)
+- sovereignwebsite.org, get started: https://sovereignwebsite.org/get-started.html (read 2026-11-20)
+- Sovereign Website, how it works: https://sovereignwebsite.ai/how-it-works.html (read 2026-11-20)
+- Pipeline demo, a site from one request: https://pipeline-demo.sovereignweb.site/ (read 2026-11-20)
+- Sovereign Website, designs: https://sovereignwebsite.ai/designs/index.html (read 2026-11-20)
+- sovereignwebsite.org, principles: https://sovereignwebsite.org/principles.html (read 2026-11-20)
+- Sovereign Website, moving your site: https://sovereignwebsite.ai/moving.html (read 2026-11-20)
+- Sovereign Website, partners: https://sovereignwebsite.ai/partners.html (read 2026-11-20)
+- Sovereign Website, trust: https://sovereignwebsite.ai/trust.html (read 2026-11-20)
+- SGit Newsroom, One commit, one site, one owner: https://newsroom.sgit.ai/articles/one-commit-one-site-one-owner.html (read 2026-11-20)
+- SGit Newsroom, Sovereign Agentic Website: https://newsroom.sgit.ai/articles/sovereign-agentic-website.html (read 2026-11-20)
+- Sovereign Website Hub: https://hub.sovereignweb.site/ (read 2026-11-20)
+- Sovereign Website Vault: https://vault.sovereignwebsite.site/ (read 2026-11-20)
+- Sovereign Website Agents: https://agents.sovereignweb.site/ (read 2026-11-20)
