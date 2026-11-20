@@ -425,44 +425,65 @@
   }
  ],
  "identity": {
-  "logo_html": "<span class=\"wm-sw\"><svg viewBox=\"0 0 32 32\" width=\"30\" height=\"30\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"2\" y=\"2\" width=\"28\" height=\"28\" rx=\"7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><path d=\"M10 16.5l4 4 8-9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Sovereign Agentic Website</span>",
+  "logo_html": "<span class=\"wm-sw\"><svg viewBox=\"0 0 32 32\" width=\"30\" height=\"30\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"2\" y=\"2\" width=\"28\" height=\"28\" rx=\"7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><path d=\"M10 16.5l4 4 8-9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Sovereign <span class=\"ag\">Agentic </span>Website</span>",
   "logo_alt": "Sovereign Agentic Website",
   "logo_from": "https://sovereignwebsite.ai/",
   "shots": [
    {
     "file": "img/real/home.webp",
     "url": "https://sovereignwebsite.ai/",
-    "caption": "The sovereignwebsite.ai home page: Your website. Built by agents, owned by you."
+    "caption": "The sovereignwebsite.ai home page: Your website. Built by agents, owned by you.",
+    "phone": "img/real/home-phone.webp",
+    "phone_w": 760,
+    "phone_h": 520
    },
    {
     "file": "img/real/how.webp",
     "url": "https://sovereignwebsite.ai/how-it-works.html",
-    "caption": "How it works, on sovereignwebsite.ai"
+    "caption": "How it works, on sovereignwebsite.ai",
+    "phone": "img/real/how-phone.webp",
+    "phone_w": 760,
+    "phone_h": 520
    },
    {
     "file": "img/real/principles.webp",
     "url": "https://sovereignwebsite.org/principles.html",
-    "caption": "The seven principles, on sovereignwebsite.org"
+    "caption": "The seven principles, on sovereignwebsite.org",
+    "phone": "img/real/principles-phone.webp",
+    "phone_w": 760,
+    "phone_h": 460
    },
    {
     "file": "img/real/maturity.webp",
     "url": "https://sovereignwebsite.ai/maturity.html",
-    "caption": "Where is your website, from 0 to 5? The maturity model on sovereignwebsite.ai"
+    "caption": "Where is your website, from 0 to 5? The maturity model on sovereignwebsite.ai",
+    "phone": "img/real/maturity-phone.webp",
+    "phone_w": 760,
+    "phone_h": 520
    },
    {
     "file": "img/real/kate.webp",
     "url": "https://kate-curtis-evans.founder.sovereignweb.site/",
-    "caption": "Kate Curtis-Evans' site, kate-curtis-evans.founder.sovereignweb.site"
+    "caption": "Kate Curtis-Evans' site, kate-curtis-evans.founder.sovereignweb.site",
+    "phone": "img/real/kate-phone.webp",
+    "phone_w": 700,
+    "phone_h": 560
    },
    {
     "file": "img/real/emily.webp",
     "url": "https://emily-cruz.artist.sovereignweb.site/",
-    "caption": "Emily Cruz's site, emily-cruz.artist.sovereignweb.site"
+    "caption": "Emily Cruz's site, emily-cruz.artist.sovereignweb.site",
+    "phone": "img/real/emily-phone.webp",
+    "phone_w": 700,
+    "phone_h": 560
    },
    {
     "file": "img/real/sarah.webp",
     "url": "https://sarah-cruz.designer.sovereignweb.site/",
-    "caption": "Sarah Cruz's site, sarah-cruz.designer.sovereignweb.site"
+    "caption": "Sarah Cruz's site, sarah-cruz.designer.sovereignweb.site",
+    "phone": "img/real/sarah-phone.webp",
+    "phone_w": 760,
+    "phone_h": 560
    }
   ]
  },
@@ -575,7 +596,8 @@
       "kind": "timeline"
      }
     ],
-    "sig": "The three keys are quoted from sovereignwebsite.ai's four plain promises. Nothing is sold yet."
+    "sig": "The three keys are quoted from sovereignwebsite.ai's four plain promises. Nothing is sold yet.",
+    "variant": "luggage"
    }
   },
   {
@@ -780,5 +802,32 @@
    "blurb": "A newsroom feature, printable on A4",
    "engine": "newsroom"
   }
- ]
+ ],
+ "oneline": {
+  "t": "Your website. Built by agents, owned by you.",
+  "s": [
+   1
+  ]
+ },
+ "band": {
+  "title": "Three keys, all yours",
+  "keys": [
+   [
+    "The files",
+    "Plain files, no server code, no database, no cookies unless you add them."
+   ],
+   [
+    "The history",
+    "A repository in your name with every change since the first."
+   ],
+   [
+    "The address",
+    "Your domain, in your own name, when you have one."
+   ]
+  ],
+  "keys_note": "Quoted from the four plain promises on sovereignwebsite.ai.",
+  "keys_s": [
+   1
+  ]
+ }
 }
