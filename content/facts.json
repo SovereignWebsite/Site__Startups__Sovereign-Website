@@ -288,7 +288,8 @@
   "soft_dark": "#2a1e19",
   "hero1": "#a5432a",
   "hero2": "#6b2a1a",
-  "hero3": "#2a6148"
+  "hero3": "#2a6148",
+  "headfont": "Georgia,\"Iowan Old Style\",serif"
  },
  "sources": [
   {
@@ -606,8 +607,8 @@
    "blurb": "Real sites made this way, live today",
    "engine": "showroom",
    "cfg": {
-    "h1": "Show me <em>one.</em>",
-    "sub": "Real sites built this way, live today and listed in the Sovereign Website hub. Each opens the live site.",
+    "h1": "Your website. Built by agents, owned by you.",
+    "sub": "**Show me one.** Real sites built this way, live today and listed in the Sovereign Website hub. Each opens the live site.",
     "sites": [
      {
       "name": "Kate Curtis-Evans",
