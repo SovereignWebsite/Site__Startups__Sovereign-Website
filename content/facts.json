@@ -1,91 +1,426 @@
 {
-  "slug": "sovereign-website",
-  "name": "Sovereign Website",
-  "mark": "S",
-  "kicker": "Websites built by agents, owned by you",
-  "domain": "sovereign-website.startups.sovereignweb.site",
-  "url": "https://sovereignwebsite.ai/",
-  "url_label": "sovereignwebsite.ai",
-  "repo": "https://github.com/SovereignWebsite/Site__Startups__Sovereign-Website",
-  "updated": "2026-11-20",
-  "home": "brochure",
-  "description": "An independent brochure about Sovereign Website: websites built by a team of AI agents and owned by the people they are for, from its own public pages.",
-  "headline": "Your website, built by agents and owned by you",
-  "lede": "A team of AI agents builds a static website, shows the owner five designs and hands it over. The files, the history and the address belong to the owner, who can move it anywhere and change it by talking to their own AI.",
-  "quote": {"q": "Your website. Built by agents, owned by you.", "who": "The headline on sovereignwebsite.ai", "s": [1]},
-  "what": [
-    {"t": "A team of AI agents builds a website, shows five designs and hands it over. The files, history and address belong to the owner, who can move it anywhere.", "s": [1]},
-    {"t": "It comes in two forms: an open pattern that anyone can use for free, the way anyone can install WordPress, and a hosted version that is being prepared.", "s": [2, 3]},
-    {"t": "\"Sovereign\" here means owning the site and being able to move it. The sites say plainly that this \"is not a legal or certification claim\".", "s": [1, 4]},
-    {"t": "**Status, as the company states it:** \"Nothing is sold yet. The hosted service under this name, and the pattern's own repository, do not exist yet.\"", "s": [1]}
-  ],
-  "story": [
-    {"t": "Sovereign Website began inside AgentiCCells, where sites were first made as \"the AgentiCCells website cell\" before they had a name of their own.", "s": [2, 15]},
-    {"t": "On 17 November 2026 a change to the AgentiCCells site factory gave the owner's own GitHub account access to the site it built, and one request went from commit to live site in 55 seconds.", "s": [14, 5]},
-    {"t": "Two days later, on 19 November 2026, the sovereignwebsite.ai, .com and .site domains and the SovereignWebsite GitHub organisation were set up, and sovereignwebsite.org was registered the same day.", "s": [2]},
-    {"t": "On 20 November 2026 the first design for sovereignwebsite.ai was chosen, the principles were licensed CC BY 4.0, and a demonstration site was built from a single request, its repository created 43 seconds after the request arrived.", "s": [9, 10, 8]}
-  ],
-  "for_whom": [
-    {"t": "Small businesses such as \"a florist, a bakery or a surf school\", who need not know the stack underneath.", "s": [1]},
-    {"t": "People moving off Wix, Squarespace or WordPress.", "s": [11]},
-    {"t": "Partners who would resell it: freelancers, small consultancies and larger firms (a draft programme).", "s": [12]},
-    {"t": "Developers and anyone who wants to use the open pattern themselves.", "s": [6]}
-  ],
-  "how": [
-    {"title": "The interview", "t": "An AI interview about five things, ending in a one-page brief. This step is \"a design that is still being built\".", "s": [7]},
-    {"title": "The material", "t": "The owner supplies what they have: a zip, an email, links or files.", "s": [7]},
-    {"title": "The team builds", "t": "Agents with job descriptions and a behaviour policy build it, each signing its work.", "s": [7, 13]},
-    {"title": "Five designs", "t": "The owner picks one design; the others are kept.", "s": [7]},
-    {"title": "The hand-over", "t": "The site is handed over in a repository the owner controls.", "s": [7]},
-    {"title": "The first change", "t": "The milestone is the owner's first change, made by talking to their own AI.", "s": [7]}
-  ],
-  "products": [
-    {"name": "sovereignwebsite.ai", "short": ".ai", "url": "https://sovereignwebsite.ai/", "t": "The brand and the hosted offer.", "s": [1]},
-    {"name": "sovereignwebsite.org", "short": ".org", "url": "https://sovereignwebsite.org/", "t": "The principles and the open pattern, \"as wordpress.org is to WordPress\".", "s": [2, 6]},
-    {"name": "sovereignwebsite.site", "short": ".site", "url": "https://sovereignwebsite.site/", "t": "The address for hosted sites. It says: \"There are no hosted sites here yet.\"", "s": [5]},
-    {"name": "The Hub", "short": "Hub", "url": "https://hub.sovereignweb.site/", "t": "The showroom of live sites.", "s": [16]},
-    {"name": "The Vault", "short": "Vault", "url": "https://vault.sovereignwebsite.site/", "t": "Opens a private site sealed in an encrypted sgit vault, in the browser.", "s": [17]},
-    {"name": "The Agents", "short": "Agents", "url": "https://agents.sovereignweb.site/", "t": "Who the agents are, each with its own site and published key.", "s": [18]}
-  ],
-  "timeline": [
-    {"date": "2026-11-17", "label": "A factory change gives the owner's GitHub account access; one request goes from commit to live site in 55 seconds.", "s": [14, 5]},
-    {"date": "2026-11-19", "label": "Domains and the SovereignWebsite GitHub organisation set up; sovereignwebsite.org registered.", "s": [2]},
-    {"date": "2026-11-20", "label": "First design for sovereignwebsite.ai chosen; principles licensed CC BY 4.0; pipeline demo built from one request.", "s": [9, 10, 8]}
-  ],
-  "figures": [
-    {"value": "55 s", "label": "from commit to live site with owner access, in the AgentiCCells factory", "asof": "2026-11-17", "s": [14]},
-    {"value": "43 s", "label": "from request to repository, for the pipeline demo", "asof": "2026-11-20", "s": [8]},
-    {"value": "7", "label": "principles, published as a first draft", "asof": "2026-11-20", "s": [10]},
-    {"value": "0", "label": "sold: \"Nothing is sold yet\"", "asof": "2026-11-20", "s": [1]}
-  ],
-  "people": [
-    {"name": "Dinis Cruz", "role": "author of the principles and articles, who approves every change", "s": [6, 13]}
-  ],
-  "visit": "The principles, the maturity model and the open pattern are all published, with every claim sourced.",
-  "newsroom": {
-    "kicker": "Startup profile",
-    "headline": "The website you can pick up and move",
-    "standfirst": "Sovereign Website has agents build a site, show five designs and hand the keys to the owner. Nothing is sold yet; the pattern and principles are already public."
-  },
-  "brand": {"accent": "#a5432a", "accent_dark": "#f0a084", "soft": "#f6e3d9", "soft_dark": "#2a1e19"},
-  "sources": [
-    {"id": 1, "title": "Sovereign Website, home page", "url": "https://sovereignwebsite.ai/", "accessed": "2026-11-20"},
-    {"id": 2, "title": "Sovereign Website, the open pattern", "url": "https://sovereignwebsite.ai/open.html", "accessed": "2026-11-20"},
-    {"id": 3, "title": "sovereignwebsite.org, home page", "url": "https://sovereignwebsite.org/", "accessed": "2026-11-20"},
-    {"id": 4, "title": "sovereignwebsite.org, sovereignty", "url": "https://sovereignwebsite.org/sovereignty.html", "accessed": "2026-11-20"},
-    {"id": 5, "title": "sovereignwebsite.site, home page", "url": "https://sovereignwebsite.site/", "accessed": "2026-11-20"},
-    {"id": 6, "title": "sovereignwebsite.org, get started", "url": "https://sovereignwebsite.org/get-started.html", "accessed": "2026-11-20"},
-    {"id": 7, "title": "Sovereign Website, how it works", "url": "https://sovereignwebsite.ai/how-it-works.html", "accessed": "2026-11-20"},
-    {"id": 8, "title": "Pipeline demo, a site from one request", "url": "https://pipeline-demo.sovereignweb.site/", "accessed": "2026-11-20"},
-    {"id": 9, "title": "Sovereign Website, designs", "url": "https://sovereignwebsite.ai/designs/index.html", "accessed": "2026-11-20"},
-    {"id": 10, "title": "sovereignwebsite.org, principles", "url": "https://sovereignwebsite.org/principles.html", "accessed": "2026-11-20"},
-    {"id": 11, "title": "Sovereign Website, moving your site", "url": "https://sovereignwebsite.ai/moving.html", "accessed": "2026-11-20"},
-    {"id": 12, "title": "Sovereign Website, partners", "url": "https://sovereignwebsite.ai/partners.html", "accessed": "2026-11-20"},
-    {"id": 13, "title": "Sovereign Website, trust", "url": "https://sovereignwebsite.ai/trust.html", "accessed": "2026-11-20"},
-    {"id": 14, "title": "SGit Newsroom, One commit, one site, one owner", "url": "https://newsroom.sgit.ai/articles/one-commit-one-site-one-owner.html", "accessed": "2026-11-20"},
-    {"id": 15, "title": "SGit Newsroom, Sovereign Agentic Website", "url": "https://newsroom.sgit.ai/articles/sovereign-agentic-website.html", "accessed": "2026-11-20"},
-    {"id": 16, "title": "Sovereign Website Hub", "url": "https://hub.sovereignweb.site/", "accessed": "2026-11-20"},
-    {"id": 17, "title": "Sovereign Website Vault", "url": "https://vault.sovereignwebsite.site/", "accessed": "2026-11-20"},
-    {"id": 18, "title": "Sovereign Website Agents", "url": "https://agents.sovereignweb.site/", "accessed": "2026-11-20"}
+ "slug": "sovereign-website",
+ "name": "Sovereign Website",
+ "mark": "S",
+ "kicker": "Websites built by agents, owned by you",
+ "domain": "sovereign-website.startups.sovereignweb.site",
+ "url": "https://sovereignwebsite.ai/",
+ "url_label": "sovereignwebsite.ai",
+ "repo": "https://github.com/SovereignWebsite/Site__Startups__Sovereign-Website",
+ "updated": "2026-11-20",
+ "home": "brochure",
+ "description": "An independent brochure about Sovereign Website: websites built by a team of AI agents and owned by the people they are for, from its own public pages.",
+ "headline": "Your website, built by agents and owned by you",
+ "lede": "A team of AI agents builds a static website, shows the owner five designs and hands it over. The files, the history and the address belong to the owner, who can move it anywhere and change it by talking to their own AI.",
+ "quote": {
+  "q": "Your website. Built by agents, owned by you.",
+  "who": "The headline on sovereignwebsite.ai",
+  "s": [
+   1
   ]
+ },
+ "what": [
+  {
+   "t": "A team of AI agents builds a website, shows five designs and hands it over. The files, history and address belong to the owner, who can move it anywhere.",
+   "s": [
+    1
+   ]
+  },
+  {
+   "t": "It comes in two forms: an open pattern that anyone can use for free, the way anyone can install WordPress, and a hosted version that is being prepared.",
+   "s": [
+    2,
+    3
+   ]
+  },
+  {
+   "t": "\"Sovereign\" here means owning the site and being able to move it. The sites say plainly that this \"is not a legal or certification claim\".",
+   "s": [
+    1,
+    4
+   ]
+  },
+  {
+   "t": "**Status, as the company states it:** \"Nothing is sold yet. The hosted service under this name, and the pattern's own repository, do not exist yet.\"",
+   "s": [
+    1
+   ]
+  }
+ ],
+ "story": [
+  {
+   "t": "Sovereign Website began inside AgentiCCells, where sites were first made as \"the AgentiCCells website cell\" before they had a name of their own.",
+   "s": [
+    2,
+    15
+   ]
+  },
+  {
+   "t": "On 17 November 2026 a change to the AgentiCCells site factory gave the owner's own GitHub account access to the site it built, and one request went from commit to live site in 55 seconds.",
+   "s": [
+    14,
+    5
+   ]
+  },
+  {
+   "t": "Two days later, on 19 November 2026, the sovereignwebsite.ai, .com and .site domains and the SovereignWebsite GitHub organisation were set up, and sovereignwebsite.org was registered the same day.",
+   "s": [
+    2
+   ]
+  },
+  {
+   "t": "On 20 November 2026 the first design for sovereignwebsite.ai was chosen, the principles were licensed CC BY 4.0, and a demonstration site was built from a single request, its repository created 43 seconds after the request arrived.",
+   "s": [
+    9,
+    10,
+    8
+   ]
+  }
+ ],
+ "for_whom": [
+  {
+   "t": "Small businesses such as \"a florist, a bakery or a surf school\", who need not know the stack underneath.",
+   "s": [
+    1
+   ]
+  },
+  {
+   "t": "People moving off Wix, Squarespace or WordPress.",
+   "s": [
+    11
+   ]
+  },
+  {
+   "t": "Partners who would resell it: freelancers, small consultancies and larger firms (a draft programme).",
+   "s": [
+    12
+   ]
+  },
+  {
+   "t": "Developers and anyone who wants to use the open pattern themselves.",
+   "s": [
+    6
+   ]
+  }
+ ],
+ "how": [
+  {
+   "title": "The interview",
+   "t": "An AI interview about five things, ending in a one-page brief. This step is \"a design that is still being built\".",
+   "s": [
+    7
+   ]
+  },
+  {
+   "title": "The material",
+   "t": "The owner supplies what they have: a zip, an email, links or files.",
+   "s": [
+    7
+   ]
+  },
+  {
+   "title": "The team builds",
+   "t": "Agents with job descriptions and a behaviour policy build it, each signing its work.",
+   "s": [
+    7,
+    13
+   ]
+  },
+  {
+   "title": "Five designs",
+   "t": "The owner picks one design; the others are kept.",
+   "s": [
+    7
+   ]
+  },
+  {
+   "title": "The hand-over",
+   "t": "The site is handed over in a repository the owner controls.",
+   "s": [
+    7
+   ]
+  },
+  {
+   "title": "The first change",
+   "t": "The milestone is the owner's first change, made by talking to their own AI.",
+   "s": [
+    7
+   ]
+  }
+ ],
+ "products": [
+  {
+   "name": "sovereignwebsite.ai",
+   "short": ".ai",
+   "url": "https://sovereignwebsite.ai/",
+   "t": "The brand and the hosted offer.",
+   "s": [
+    1
+   ]
+  },
+  {
+   "name": "sovereignwebsite.org",
+   "short": ".org",
+   "url": "https://sovereignwebsite.org/",
+   "t": "The principles and the open pattern, \"as wordpress.org is to WordPress\".",
+   "s": [
+    2,
+    6
+   ]
+  },
+  {
+   "name": "sovereignwebsite.site",
+   "short": ".site",
+   "url": "https://sovereignwebsite.site/",
+   "t": "The address for hosted sites. It says: \"There are no hosted sites here yet.\"",
+   "s": [
+    5
+   ]
+  },
+  {
+   "name": "The Hub",
+   "short": "Hub",
+   "url": "https://hub.sovereignweb.site/",
+   "t": "The showroom of live sites.",
+   "s": [
+    16
+   ]
+  },
+  {
+   "name": "The Vault",
+   "short": "Vault",
+   "url": "https://vault.sovereignwebsite.site/",
+   "t": "Opens a private site sealed in an encrypted sgit vault, in the browser.",
+   "s": [
+    17
+   ]
+  },
+  {
+   "name": "The Agents",
+   "short": "Agents",
+   "url": "https://agents.sovereignweb.site/",
+   "t": "Who the agents are, each with its own site and published key.",
+   "s": [
+    18
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-17",
+   "label": "A factory change gives the owner's GitHub account access; one request goes from commit to live site in 55 seconds.",
+   "s": [
+    14,
+    5
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "label": "Domains and the SovereignWebsite GitHub organisation set up; sovereignwebsite.org registered.",
+   "s": [
+    2
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "label": "First design for sovereignwebsite.ai chosen; principles licensed CC BY 4.0; pipeline demo built from one request.",
+   "s": [
+    9,
+    10,
+    8
+   ]
+  }
+ ],
+ "figures": [
+  {
+   "value": "55 s",
+   "label": "from commit to live site with owner access, in the AgentiCCells factory",
+   "asof": "2026-11-17",
+   "s": [
+    14
+   ]
+  },
+  {
+   "value": "43 s",
+   "label": "from request to repository, for the pipeline demo",
+   "asof": "2026-11-20",
+   "s": [
+    8
+   ]
+  },
+  {
+   "value": "7",
+   "label": "principles, published as a first draft",
+   "asof": "2026-11-20",
+   "s": [
+    10
+   ]
+  },
+  {
+   "value": "0",
+   "label": "sold: \"Nothing is sold yet\"",
+   "asof": "2026-11-20",
+   "s": [
+    1
+   ]
+  }
+ ],
+ "people": [
+  {
+   "name": "Dinis Cruz",
+   "role": "author of the principles and articles, who approves every change",
+   "s": [
+    6,
+    13
+   ]
+  }
+ ],
+ "visit": "The principles, the maturity model and the open pattern are all published, with every claim sourced.",
+ "newsroom": {
+  "kicker": "Startup profile",
+  "headline": "The website you can pick up and move",
+  "standfirst": "Sovereign Website has agents build a site, show five designs and hand the keys to the owner. Nothing is sold yet; the pattern and principles are already public."
+ },
+ "brand": {
+  "accent": "#a5432a",
+  "accent_dark": "#f0a084",
+  "soft": "#f6e3d9",
+  "soft_dark": "#2a1e19",
+  "hero1": "#a5432a",
+  "hero2": "#6b2a1a",
+  "hero3": "#2a6148"
+ },
+ "sources": [
+  {
+   "id": 1,
+   "title": "Sovereign Website, home page",
+   "url": "https://sovereignwebsite.ai/",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 2,
+   "title": "Sovereign Website, the open pattern",
+   "url": "https://sovereignwebsite.ai/open.html",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 3,
+   "title": "sovereignwebsite.org, home page",
+   "url": "https://sovereignwebsite.org/",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 4,
+   "title": "sovereignwebsite.org, sovereignty",
+   "url": "https://sovereignwebsite.org/sovereignty.html",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 5,
+   "title": "sovereignwebsite.site, home page",
+   "url": "https://sovereignwebsite.site/",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 6,
+   "title": "sovereignwebsite.org, get started",
+   "url": "https://sovereignwebsite.org/get-started.html",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 7,
+   "title": "Sovereign Website, how it works",
+   "url": "https://sovereignwebsite.ai/how-it-works.html",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 8,
+   "title": "Pipeline demo, a site from one request",
+   "url": "https://pipeline-demo.sovereignweb.site/",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 9,
+   "title": "Sovereign Website, designs",
+   "url": "https://sovereignwebsite.ai/designs/index.html",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 10,
+   "title": "sovereignwebsite.org, principles",
+   "url": "https://sovereignwebsite.org/principles.html",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 11,
+   "title": "Sovereign Website, moving your site",
+   "url": "https://sovereignwebsite.ai/moving.html",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 12,
+   "title": "Sovereign Website, partners",
+   "url": "https://sovereignwebsite.ai/partners.html",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 13,
+   "title": "Sovereign Website, trust",
+   "url": "https://sovereignwebsite.ai/trust.html",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 14,
+   "title": "SGit Newsroom, One commit, one site, one owner",
+   "url": "https://newsroom.sgit.ai/articles/one-commit-one-site-one-owner.html",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 15,
+   "title": "SGit Newsroom, Sovereign Agentic Website",
+   "url": "https://newsroom.sgit.ai/articles/sovereign-agentic-website.html",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 16,
+   "title": "Sovereign Website Hub",
+   "url": "https://hub.sovereignweb.site/",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 17,
+   "title": "Sovereign Website Vault",
+   "url": "https://vault.sovereignwebsite.site/",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 18,
+   "title": "Sovereign Website Agents",
+   "url": "https://agents.sovereignweb.site/",
+   "accessed": "2026-11-20"
+  }
+ ],
+ "identity": {
+  "logo_html": "<span class=\"wm-sw\"><svg viewBox=\"0 0 32 32\" width=\"30\" height=\"30\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"2\" y=\"2\" width=\"28\" height=\"28\" rx=\"7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><path d=\"M10 16.5l4 4 8-9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Sovereign Agentic Website</span>",
+  "logo_alt": "Sovereign Agentic Website",
+  "logo_from": "https://sovereignwebsite.ai/",
+  "shots": [
+   {
+    "file": "img/real/home.webp",
+    "url": "https://sovereignwebsite.ai/",
+    "caption": "The sovereignwebsite.ai home page: Your website. Built by agents, owned by you."
+   },
+   {
+    "file": "img/real/how.webp",
+    "url": "https://sovereignwebsite.ai/how-it-works.html",
+    "caption": "How it works, on sovereignwebsite.ai"
+   },
+   {
+    "file": "img/real/principles.webp",
+    "url": "https://sovereignwebsite.org/principles.html",
+    "caption": "The seven principles, on sovereignwebsite.org"
+   }
+  ]
+ },
+ "images_note": "Used with Dinis Cruz's agreement (20 November 2026, relayed by sites.b): these are his own companies, so their published brand assets may be used. Logo: from https://sovereignwebsite.ai/. Screenshots of the company's live site, taken by startups.b with Playwright on 20 November 2026 and linked to the page each shows: https://sovereignwebsite.ai/; https://sovereignwebsite.ai/how-it-works.html; https://sovereignwebsite.org/principles.html. Every diagram, the favicon and the share card were drawn for this site."
 }
