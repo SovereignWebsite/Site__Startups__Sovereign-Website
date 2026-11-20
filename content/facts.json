@@ -8,7 +8,7 @@
  "url_label": "sovereignwebsite.ai",
  "repo": "https://github.com/SovereignWebsite/Site__Startups__Sovereign-Website",
  "updated": "2026-11-20",
- "home": "brochure",
+ "home": "showroom",
  "description": "An independent brochure about Sovereign Website: websites built by a team of AI agents and owned by the people they are for, from its own public pages.",
  "headline": "Your website, built by agents and owned by you",
  "lede": "A team of AI agents builds a static website, shows the owner five designs and hands it over. The files, the history and the address belong to the owner, who can move it anywhere and change it by talking to their own AI.",
@@ -398,6 +398,30 @@
    "title": "Sovereign Website Agents",
    "url": "https://agents.sovereignweb.site/",
    "accessed": "2026-11-20"
+  },
+  {
+   "id": 19,
+   "title": "Sovereign Website, the maturity model",
+   "url": "https://sovereignwebsite.ai/maturity.html",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 20,
+   "title": "Sovereign Website Hub, sites.json",
+   "url": "https://hub.sovereignweb.site/sites.json",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 21,
+   "title": "SovereignWebsite Factory, milestones",
+   "url": "https://github.com/SovereignWebsite/SovereignWebsite__Factory/blob/dev/board/milestones.md",
+   "accessed": "2026-11-20"
+  },
+  {
+   "id": 22,
+   "title": "Sovereign Website, examples",
+   "url": "https://sovereignwebsite.ai/examples.html",
+   "accessed": "2026-11-20"
   }
  ],
  "identity": {
@@ -419,8 +443,342 @@
     "file": "img/real/principles.webp",
     "url": "https://sovereignwebsite.org/principles.html",
     "caption": "The seven principles, on sovereignwebsite.org"
+   },
+   {
+    "file": "img/real/maturity.webp",
+    "url": "https://sovereignwebsite.ai/maturity.html",
+    "caption": "Where is your website, from 0 to 5? The maturity model on sovereignwebsite.ai"
+   },
+   {
+    "file": "img/real/kate.webp",
+    "url": "https://kate-curtis-evans.founder.sovereignweb.site/",
+    "caption": "Kate Curtis-Evans' site, kate-curtis-evans.founder.sovereignweb.site"
+   },
+   {
+    "file": "img/real/emily.webp",
+    "url": "https://emily-cruz.artist.sovereignweb.site/",
+    "caption": "Emily Cruz's site, emily-cruz.artist.sovereignweb.site"
+   },
+   {
+    "file": "img/real/sarah.webp",
+    "url": "https://sarah-cruz.designer.sovereignweb.site/",
+    "caption": "Sarah Cruz's site, sarah-cruz.designer.sovereignweb.site"
    }
   ]
  },
- "images_note": "Used with Dinis Cruz's agreement (20 November 2026, relayed by sites.b): these are his own companies, so their published brand assets may be used. Logo: from https://sovereignwebsite.ai/. Screenshots of the company's live site, taken by startups.b with Playwright on 20 November 2026 and linked to the page each shows: https://sovereignwebsite.ai/; https://sovereignwebsite.ai/how-it-works.html; https://sovereignwebsite.org/principles.html. Every diagram, the favicon and the share card were drawn for this site."
+ "images_note": "Used with Dinis Cruz's agreement (20 November 2026, relayed by sites.b): these are his own companies, so their published brand assets may be used. Logo: from https://sovereignwebsite.ai/. Screenshots of the company's live site, taken by startups.b with Playwright on 20 November 2026 and linked to the page each shows: https://sovereignwebsite.ai/; https://sovereignwebsite.ai/how-it-works.html; https://sovereignwebsite.org/principles.html. Every diagram, the favicon and the share card were drawn for this site.",
+ "next": [
+  {
+   "label": "Check your website, from 0 to 5",
+   "url": "https://sovereignwebsite.ai/maturity.html#self-check"
+  },
+  {
+   "label": "How it works",
+   "url": "https://sovereignwebsite.ai/how-it-works.html"
+  }
+ ],
+ "designs": [
+  {
+   "key": "hand-over",
+   "name": "The Hand-over",
+   "blurb": "A hand-over note with three keys",
+   "engine": "paper",
+   "cfg": {
+    "palette": {
+     "light": {
+      "bg": "#f3ebdf",
+      "card": "#fffdf9",
+      "fg": "#2a1f17",
+      "muted": "#5e5148",
+      "line": "#eadccd",
+      "link": "#a5432a",
+      "acc": "#a5432a",
+      "acc-ink": "#fff"
+     },
+     "dark": {
+      "bg": "#1a1512",
+      "card": "#231c18",
+      "fg": "#f1e9e1",
+      "muted": "#c3b6aa",
+      "line": "#3a2f28",
+      "link": "#f0a084",
+      "acc": "#f0a084",
+      "acc-ink": "#1a1512"
+     }
+    },
+    "stamp": "Handed over",
+    "kick": "Hand-over note",
+    "h1": "Your website: here are the keys",
+    "fields": [
+     [
+      "To",
+      "The owner"
+     ],
+     [
+      "From",
+      "A team of agents"
+     ],
+     [
+      "Pattern",
+      "Sovereign Website"
+     ],
+     [
+      "Read",
+      "20 November 2026"
+     ]
+    ],
+    "agenda": "In this note",
+    "items": [
+     {
+      "title": "The three keys",
+      "kind": "keytag",
+      "keys": [
+       [
+        "The files",
+        "Plain files: no server code, no database, no cookies unless you add them."
+       ],
+       [
+        "The history",
+        "A repository in your name with every change since the first."
+       ],
+       [
+        "The address",
+        "Your domain, in your own name, when you have one."
+       ]
+      ],
+      "short": "Keys"
+     },
+     {
+      "title": "How you got here",
+      "kind": "how",
+      "short": "Steps"
+     },
+     {
+      "title": "The first owner to take the keys",
+      "kind": "text",
+      "text": "On 20 November 2026 Kate Curtis-Evans became the first owner to edit her own site herself, through GitHub: the hand-over working end to end.",
+      "s": [
+       21
+      ],
+      "short": "First owner"
+     },
+     {
+      "title": "What it is",
+      "kind": "what"
+     },
+     {
+      "title": "The family",
+      "kind": "products"
+     },
+     {
+      "title": "Dates",
+      "kind": "timeline"
+     }
+    ],
+    "sig": "The three keys are quoted from sovereignwebsite.ai's four plain promises. Nothing is sold yet."
+   }
+  },
+  {
+   "key": "showroom",
+   "name": "The Showroom",
+   "blurb": "Real sites made this way, live today",
+   "engine": "showroom",
+   "cfg": {
+    "h1": "Show me <em>one.</em>",
+    "sub": "Real sites built this way, live today and listed in the Sovereign Website hub. Each opens the live site.",
+    "sites": [
+     {
+      "name": "Kate Curtis-Evans",
+      "url": "https://kate-curtis-evans.founder.sovereignweb.site/",
+      "shot": 4,
+      "role": "Founder, Audio Genius: a practising legal transcriber",
+      "s": [
+       20
+      ],
+      "hand": "The first owner to edit her own site herself, through GitHub, on 20 November 2026.",
+      "hs": [
+       21
+      ],
+      "credit": "Photo on her site by Matt Hinton Photography, as credited there."
+     },
+     {
+      "name": "Emily Cruz",
+      "url": "https://emily-cruz.artist.sovereignweb.site/",
+      "shot": 5,
+      "role": "Actor-musician and artist",
+      "s": [
+       20
+      ],
+      "hand": "Live and listed in the hub, in its Artist group.",
+      "hs": [
+       20
+      ],
+      "credit": "Cover photo by YellowBellyPhoto, as credited there."
+     },
+     {
+      "name": "Sarah Cruz",
+      "url": "https://sarah-cruz.designer.sovereignweb.site/",
+      "shot": 6,
+      "role": "Creative Director and designer: 25+ years of wine, spirits and retail packaging",
+      "s": [
+       20
+      ],
+      "hand": "Live and listed in the hub, in five designs.",
+      "hs": [
+       20
+      ],
+      "credit": "Images are her own work, as shown on her site."
+     }
+    ]
+   }
+  },
+  {
+   "key": "sovereign-website",
+   "name": "Identity: Sovereign Website",
+   "blurb": "Cream, terracotta, the three-line promise and its offer card",
+   "engine": "identity",
+   "cfg": {
+    "palette": {
+     "light": {
+      "bg": "#fbf6ee",
+      "card": "#fffdf9",
+      "fg": "#2a1f17",
+      "muted": "#5e5148",
+      "line": "#eadccd",
+      "link": "#a5432a",
+      "acc": "#a5432a",
+      "acc-ink": "#fff",
+      "herobg": "#f6e3d9",
+      "heroink": "#2a1f17",
+      "heroacc": "#a5432a",
+      "heroacc-ink": "#fff"
+     },
+     "dark": {
+      "bg": "#1a1512",
+      "card": "#231c18",
+      "fg": "#f1e9e1",
+      "muted": "#c3b6aa",
+      "line": "#3a2f28",
+      "link": "#f0a084",
+      "acc": "#f0a084",
+      "acc-ink": "#1a1512",
+      "herobg": "#2a1e19",
+      "heroink": "#f1e9e1",
+      "heroacc": "#f0a084",
+      "heroacc-ink": "#1a1512"
+     }
+    },
+    "h1_font": "700 clamp(2.6rem,7vw,4.6rem)/1.05 Georgia,\"Iowan Old Style\",\"Times New Roman\",serif",
+    "h2_font": "700 clamp(1.5rem,3.4vw,2.1rem)/1.15 Georgia,serif",
+    "h1": "Your website.<br>Built by agents,<br>owned by you.",
+    "h1_s": [
+     1
+    ],
+    "sub": "\"Tell a team of agents what you want. They build your site, show you five designs, and hand it over. The files, the history and the address are yours, and you can move it anywhere.\"",
+    "offer": {
+     "tag": "Proposal only",
+     "title": "The launch offer",
+     "price": "£50 or €50",
+     "text": "\"Proposed, not decided: £50, and €50 on European sites. It is not on offer today.\" Nothing is sold yet.",
+     "s": [
+      1
+     ]
+    },
+    "hero": "shot",
+    "shot": 0,
+    "strip_below": [
+     1,
+     2
+    ],
+    "strip_title": "More of the family"
+   }
+  },
+  {
+   "key": "maturity",
+   "name": "Identity: the maturity check",
+   "blurb": "The six levels drawn as a dial",
+   "engine": "identity",
+   "cfg": {
+    "palette": {
+     "light": {
+      "bg": "#fbf6ee",
+      "card": "#fffdf9",
+      "fg": "#2a1f17",
+      "muted": "#5e5148",
+      "line": "#eadccd",
+      "link": "#a5432a",
+      "acc": "#a5432a",
+      "acc-ink": "#fff",
+      "herobg": "#f6e3d9",
+      "heroink": "#2a1f17",
+      "heroacc": "#a5432a",
+      "heroacc-ink": "#fff"
+     },
+     "dark": {
+      "bg": "#1a1512",
+      "card": "#231c18",
+      "fg": "#f1e9e1",
+      "muted": "#c3b6aa",
+      "line": "#3a2f28",
+      "link": "#f0a084",
+      "acc": "#f0a084",
+      "acc-ink": "#1a1512",
+      "herobg": "#2a1e19",
+      "heroink": "#f1e9e1",
+      "heroacc": "#f0a084",
+      "heroacc-ink": "#1a1512"
+     }
+    },
+    "h1_font": "700 clamp(2.4rem,6.5vw,4.2rem)/1.06 Georgia,serif",
+    "h2_font": "700 clamp(1.5rem,3.4vw,2.1rem)/1.15 Georgia,serif",
+    "h1": "Where is your website, from 0 to 5?",
+    "h1_s": [
+     19
+    ],
+    "sub": "\"A sovereign website is a website you own and can move. Owning is the easy part; moving is where it fails.\"",
+    "hero": "dial",
+    "mark": 4,
+    "levels": [
+     [
+      "rented",
+      "#b3412e"
+     ],
+     [
+      "exportable",
+      "#c66a28"
+     ],
+     [
+      "a part you do not control",
+      "#b68a1f"
+     ],
+     [
+      "open, on one host",
+      "#7f8f2c"
+     ],
+     [
+      "portable",
+      "#3d8a5a"
+     ],
+     [
+      "sovereign and proven",
+      "#2a6148"
+     ]
+    ],
+    "strip_below": [
+     3
+    ],
+    "strip_title": "The real check, on sovereignwebsite.ai",
+    "mark_note": "The needle: its own sites rate themselves at level 4, portable.",
+    "mark_s": [
+     22
+    ]
+   }
+  },
+  {
+   "key": "newsroom",
+   "name": "The Newsroom",
+   "blurb": "A newsroom feature, printable on A4",
+   "engine": "newsroom"
+  }
+ ]
 }

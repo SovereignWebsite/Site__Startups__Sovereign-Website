@@ -28,11 +28,11 @@ An independent brochure about Sovereign Website, made from its own public pages.
 
 ## Pages
 
-- [The Brochure](https://sovereign-website.startups.sovereignweb.site/index.html): The company at a glance, with diagrams
-- [The Blueprint](https://sovereign-website.startups.sovereignweb.site/designs/blueprint.html): A dark technical spec sheet
-- [The Story](https://sovereign-website.startups.sovereignweb.site/designs/story.html): Told in order, date by date
-- [The Newsroom](https://sovereign-website.startups.sovereignweb.site/designs/newsroom.html): A magazine feature about the company
-- [The Brief](https://sovereign-website.startups.sovereignweb.site/designs/brief.html): Plain and printable on A4
+- [The Hand-over](https://sovereign-website.startups.sovereignweb.site/designs/hand-over.html): A hand-over note with three keys
+- [The Showroom](https://sovereign-website.startups.sovereignweb.site/index.html): Real sites made this way, live today
+- [Identity: Sovereign Website](https://sovereign-website.startups.sovereignweb.site/designs/sovereign-website.html): Cream, terracotta, the three-line promise and its offer card
+- [Identity: the maturity check](https://sovereign-website.startups.sovereignweb.site/designs/maturity.html): The six levels drawn as a dial
+- [The Newsroom](https://sovereign-website.startups.sovereignweb.site/designs/newsroom.html): A newsroom feature, printable on A4
 
 ## Sources
 
@@ -54,3 +54,7 @@ An independent brochure about Sovereign Website, made from its own public pages.
 - Sovereign Website Hub: https://hub.sovereignweb.site/ (read 2026-11-20)
 - Sovereign Website Vault: https://vault.sovereignwebsite.site/ (read 2026-11-20)
 - Sovereign Website Agents: https://agents.sovereignweb.site/ (read 2026-11-20)
+- Sovereign Website, the maturity model: https://sovereignwebsite.ai/maturity.html (read 2026-11-20)
+- Sovereign Website Hub, sites.json: https://hub.sovereignweb.site/sites.json (read 2026-11-20)
+- SovereignWebsite Factory, milestones: https://github.com/SovereignWebsite/SovereignWebsite__Factory/blob/dev/board/milestones.md (read 2026-11-20)
+- Sovereign Website, examples: https://sovereignwebsite.ai/examples.html (read 2026-11-20)

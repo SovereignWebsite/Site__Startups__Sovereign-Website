@@ -22,6 +22,10 @@ Every fact on this site comes from these public pages. This file is written by t
 | 16 | [Sovereign Website Hub](https://hub.sovereignweb.site/) | 2026-11-20 |
 | 17 | [Sovereign Website Vault](https://vault.sovereignwebsite.site/) | 2026-11-20 |
 | 18 | [Sovereign Website Agents](https://agents.sovereignweb.site/) | 2026-11-20 |
+| 19 | [Sovereign Website, the maturity model](https://sovereignwebsite.ai/maturity.html) | 2026-11-20 |
+| 20 | [Sovereign Website Hub, sites.json](https://hub.sovereignweb.site/sites.json) | 2026-11-20 |
+| 21 | [SovereignWebsite Factory, milestones](https://github.com/SovereignWebsite/SovereignWebsite__Factory/blob/dev/board/milestones.md) | 2026-11-20 |
+| 22 | [Sovereign Website, examples](https://sovereignwebsite.ai/examples.html) | 2026-11-20 |
 
 ## Images
 
