@@ -836,10 +836,9 @@
   "ring": true
  },
  "next_note": {
-  "t": "The self-check is five questions, answered in order: you stop at the first question you answer no, and that is your level. It places a website from 0, \"rented\", to 5, \"sovereign and proven\". The company rates its own sites at level 4, \"portable\".",
+  "t": "Five questions, levels 0 to 5: you stop at your first no.",
   "s": [
-   19,
-   22
+   19
   ]
  },
  "next_note_hero_only": true
