@@ -45,6 +45,12 @@
    "s": [
     1
    ]
+  },
+  {
+   "t": "**What a visitor can do today:** take the \"one-minute self-check\" on the company's maturity model, which places a website from level 0, \"rented\", to level 5, \"sovereign and proven\".",
+   "s": [
+    19
+   ]
   }
  ],
  "story": [
@@ -597,7 +603,7 @@
       "kind": "timeline"
      }
     ],
-    "sig": "The three keys are quoted from sovereignwebsite.ai's four plain promises. Nothing is sold yet.",
+    "sig": "The three keys are quoted from sovereignwebsite.ai's plain promises. Nothing is sold yet.",
     "variant": "luggage"
    }
   },
@@ -826,7 +832,7 @@
     "Your domain, in your own name, when you have one."
    ]
   ],
-  "keys_note": "Quoted from the four plain promises on sovereignwebsite.ai.",
+  "keys_note": "Quoted from the plain promises on sovereignwebsite.ai.",
   "keys_s": [
    1
   ]
