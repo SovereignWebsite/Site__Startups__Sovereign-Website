@@ -29,6 +29,8 @@ Every fact on this site comes from these public pages. This file is written by t
 | 23 | [Sovereign Website, prices (launch offer decided 23 November 2026)](https://sovereignwebsite.ai/pricing.html) | 2026-11-23 |
 | 24 | [Sovereign Website, home page (read again)](https://sovereignwebsite.ai/) | 2026-11-23 |
 | 25 | [Sovereign Website, how it works (read again)](https://sovereignwebsite.ai/how-it-works.html) | 2026-11-23 |
+| 26 | [Kate's site, commit 2b0cabd: minutes figure 46,700 (20 November 2026)](https://github.com/SovereignWebsite/Site__Founder__Kate-Curtis-Evans/commit/2b0cabd) | 2026-11-23 |
+| 27 | [Kate's site, docs/handover.md: what made the first hand-over work](https://github.com/SovereignWebsite/Site__Founder__Kate-Curtis-Evans/blob/dev/docs/handover.md) | 2026-11-23 |
 
 ## Images
 

@@ -447,6 +447,18 @@
    "title": "Sovereign Website, how it works (read again)",
    "url": "https://sovereignwebsite.ai/how-it-works.html",
    "accessed": "2026-11-23"
+  },
+  {
+   "id": 26,
+   "title": "Kate's site, commit 2b0cabd: minutes figure 46,700 (20 November 2026)",
+   "url": "https://github.com/SovereignWebsite/Site__Founder__Kate-Curtis-Evans/commit/2b0cabd",
+   "accessed": "2026-11-23"
+  },
+  {
+   "id": 27,
+   "title": "Kate's site, docs/handover.md: what made the first hand-over work",
+   "url": "https://github.com/SovereignWebsite/Site__Founder__Kate-Curtis-Evans/blob/dev/docs/handover.md",
+   "accessed": "2026-11-23"
   }
  ],
  "identity": {
@@ -870,5 +882,27 @@
    19
   ]
  },
- "next_note_hero_only": true
+ "next_note_hero_only": true,
+ "beforeafter": {
+  "title": "Kate changes her own site",
+  "text": "On 20 November 2026, after the hand-over, Kate's own Claude made her changes: first the photo credit, then, from her answers, her figures. The card on her home page:",
+  "s": [
+   26,
+   27
+  ],
+  "before": {
+   "img": "img/real/kate-before.webp",
+   "w": 430,
+   "h": 398,
+   "cap": "Before: as built"
+  },
+  "after": {
+   "img": "img/real/kate-after.webp",
+   "w": 430,
+   "h": 398,
+   "cap": "After: commit 2b0cabd, 20 November 2026"
+  },
+  "link": "https://github.com/SovereignWebsite/Site__Founder__Kate-Curtis-Evans/commits/dev",
+  "link_label": "Her commit history, on GitHub"
+ }
 }

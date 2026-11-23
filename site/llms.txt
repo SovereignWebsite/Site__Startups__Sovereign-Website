@@ -61,3 +61,5 @@ An independent brochure about Sovereign Website, made from its own public pages.
 - Sovereign Website, prices (launch offer decided 23 November 2026): https://sovereignwebsite.ai/pricing.html (read 2026-11-23)
 - Sovereign Website, home page (read again): https://sovereignwebsite.ai/ (read 2026-11-23)
 - Sovereign Website, how it works (read again): https://sovereignwebsite.ai/how-it-works.html (read 2026-11-23)
+- Kate's site, commit 2b0cabd: minutes figure 46,700 (20 November 2026): https://github.com/SovereignWebsite/Site__Founder__Kate-Curtis-Evans/commit/2b0cabd (read 2026-11-23)
+- Kate's site, docs/handover.md: what made the first hand-over work: https://github.com/SovereignWebsite/Site__Founder__Kate-Curtis-Evans/blob/dev/docs/handover.md (read 2026-11-23)
