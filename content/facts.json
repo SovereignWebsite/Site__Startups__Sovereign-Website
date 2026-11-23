@@ -644,7 +644,8 @@
       "hs": [
        21
       ],
-      "credit": "Photo on her site by Matt Hinton Photography, as credited there."
+      "credit": "Photo on her site by Matt Hinton Photography, as credited there.",
+      "thumb_y": 70
      },
      {
       "name": "Emily Cruz",
@@ -658,7 +659,8 @@
       "hs": [
        20
       ],
-      "credit": "Cover photo by YellowBellyPhoto, as credited there."
+      "credit": "Cover photo by YellowBellyPhoto, as credited there.",
+      "thumb_y": 62
      },
      {
       "name": "Sarah Cruz",
@@ -672,7 +674,8 @@
       "hs": [
        20
       ],
-      "credit": "Images are her own work, as shown on her site."
+      "credit": "Images are her own work, as shown on her site.",
+      "thumb_y": 60
      }
     ]
    }
