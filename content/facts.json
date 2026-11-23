@@ -441,56 +441,63 @@
     "url": "https://sovereignwebsite.ai/",
     "caption": "The sovereignwebsite.ai home page: Your website. Built by agents, owned by you.",
     "phone": "img/real/home-phone.webp",
-    "phone_w": 760,
-    "phone_h": 520
+    "phone_w": 780,
+    "phone_h": 940,
+    "phone_taken": "2026-11-23"
    },
    {
     "file": "img/real/how.webp",
     "url": "https://sovereignwebsite.ai/how-it-works.html",
     "caption": "How it works, on sovereignwebsite.ai",
     "phone": "img/real/how-phone.webp",
-    "phone_w": 760,
-    "phone_h": 520
+    "phone_w": 780,
+    "phone_h": 940,
+    "phone_taken": "2026-11-23"
    },
    {
     "file": "img/real/principles.webp",
     "url": "https://sovereignwebsite.org/principles.html",
     "caption": "The seven principles, on sovereignwebsite.org",
     "phone": "img/real/principles-phone.webp",
-    "phone_w": 760,
-    "phone_h": 460
+    "phone_w": 780,
+    "phone_h": 940,
+    "phone_taken": "2026-11-23"
    },
    {
     "file": "img/real/maturity.webp",
     "url": "https://sovereignwebsite.ai/maturity.html",
     "caption": "Where is your website, from 0 to 5? The maturity model on sovereignwebsite.ai",
     "phone": "img/real/maturity-phone.webp",
-    "phone_w": 760,
-    "phone_h": 520
+    "phone_w": 780,
+    "phone_h": 940,
+    "phone_taken": "2026-11-23"
    },
    {
     "file": "img/real/kate.webp",
     "url": "https://kate-curtis-evans.founder.sovereignweb.site/",
     "caption": "Kate Curtis-Evans' site, kate-curtis-evans.founder.sovereignweb.site",
     "phone": "img/real/kate-phone.webp",
-    "phone_w": 700,
-    "phone_h": 560
+    "phone_w": 780,
+    "phone_h": 940,
+    "phone_taken": "2026-11-23"
    },
    {
     "file": "img/real/emily.webp",
     "url": "https://emily-cruz.artist.sovereignweb.site/",
     "caption": "Emily Cruz's site, emily-cruz.artist.sovereignweb.site",
     "phone": "img/real/emily-phone.webp",
-    "phone_w": 700,
-    "phone_h": 560
+    "phone_w": 780,
+    "phone_h": 940,
+    "phone_taken": "2026-11-23"
    },
    {
     "file": "img/real/sarah.webp",
     "url": "https://sarah-cruz.designer.sovereignweb.site/",
     "caption": "Sarah Cruz's site, sarah-cruz.designer.sovereignweb.site",
     "phone": "img/real/sarah-phone.webp",
-    "phone_w": 760,
-    "phone_h": 560
+    "phone_w": 780,
+    "phone_h": 940,
+    "phone_taken": "2026-11-23"
    }
   ]
  },
@@ -835,6 +842,13 @@
   "keys_note": "Quoted from the plain promises on sovereignwebsite.ai.",
   "keys_s": [
    1
+  ]
+ },
+ "next_note": {
+  "t": "The self-check places a website on six levels, from 0, \"rented\", to 5, \"sovereign and proven\". The company rates its own sites at level 4, \"portable\".",
+  "s": [
+   19,
+   22
   ]
  }
 }
