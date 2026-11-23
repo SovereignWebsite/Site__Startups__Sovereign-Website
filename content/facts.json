@@ -506,10 +506,6 @@
   {
    "label": "Check your website, from 0 to 5",
    "url": "https://sovereignwebsite.ai/maturity.html#self-check"
-  },
-  {
-   "label": "How it works",
-   "url": "https://sovereignwebsite.ai/how-it-works.html"
   }
  ],
  "designs": [
@@ -842,10 +838,11 @@
   "keys_note": "Quoted from the plain promises on sovereignwebsite.ai.",
   "keys_s": [
    1
-  ]
+  ],
+  "ring": true
  },
  "next_note": {
-  "t": "The self-check places a website on six levels, from 0, \"rented\", to 5, \"sovereign and proven\". The company rates its own sites at level 4, \"portable\".",
+  "t": "The self-check is five questions, answered in order; your level is your first no. It places a website from 0, \"rented\", to 5, \"sovereign and proven\". The company rates its own sites at level 4, \"portable\".",
   "s": [
    19,
    22
