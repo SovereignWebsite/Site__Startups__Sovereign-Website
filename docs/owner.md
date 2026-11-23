@@ -12,5 +12,5 @@ For the owner. Nothing on this site waits on you: it is live at https://sovereig
 
 ## Things you could add
 
-- **Kate's showroom entry.** It stays as it is. You decide whether it stays, changes or goes; there is no record yet that she agreed to be featured.
+- **The first handed-over site.** It is off the showroom for now: your record allows listing it without naming its owner, and its address carries the owner's name. Featuring the owner needs their own word.
 - **Any answer in `docs/questions.md`.** Each one, once answered with a source, becomes a fact on the site.

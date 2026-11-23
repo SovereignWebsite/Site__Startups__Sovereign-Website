@@ -491,15 +491,6 @@
     "phone_taken": "2026-11-23"
    },
    {
-    "file": "img/real/kate.webp",
-    "url": "https://kate-curtis-evans.founder.sovereignweb.site/",
-    "caption": "Kate Curtis-Evans' site, kate-curtis-evans.founder.sovereignweb.site",
-    "phone": "img/real/kate-phone.webp",
-    "phone_w": 780,
-    "phone_h": 940,
-    "phone_taken": "2026-11-23"
-   },
-   {
     "file": "img/real/emily.webp",
     "url": "https://emily-cruz.artist.sovereignweb.site/",
     "caption": "Emily Cruz's site, emily-cruz.artist.sovereignweb.site",
@@ -609,7 +600,7 @@
      {
       "title": "The first owner to take the keys",
       "kind": "text",
-      "text": "On 20 November 2026 Kate Curtis-Evans became the first owner to edit her own site herself, through GitHub: the hand-over working end to end.",
+      "text": "On 20 November 2026 the first owner edited the site themselves, through GitHub: the hand-over working end to end.",
       "s": [
        21
       ],
@@ -642,25 +633,9 @@
     "sub": "**Show me one.** Real sites built this way, live today and listed in the Sovereign Website hub. Each opens the live site.",
     "sites": [
      {
-      "name": "Kate Curtis-Evans",
-      "url": "https://kate-curtis-evans.founder.sovereignweb.site/",
-      "shot": 4,
-      "role": "Founder, Audio Genius: a practising legal transcriber",
-      "s": [
-       20
-      ],
-      "hand": "The first owner to edit her own site herself, through GitHub, on 20 November 2026.",
-      "hs": [
-       21
-      ],
-      "credit": "Photo on her site by Matt Hinton Photography, as credited there.",
-      "thumb_y": 70,
-      "thumb_role_hidden": true
-     },
-     {
       "name": "Emily Cruz",
       "url": "https://emily-cruz.artist.sovereignweb.site/",
-      "shot": 5,
+      "shot": 4,
       "role": "Actor-musician and artist",
       "s": [
        20
@@ -678,7 +653,7 @@
      {
       "name": "Sarah Cruz",
       "url": "https://sarah-cruz.designer.sovereignweb.site/",
-      "shot": 6,
+      "shot": 5,
       "role": "Creative Director and designer: 25+ years of wine, spirits and retail packaging",
       "s": [
        20
