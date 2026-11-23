@@ -120,10 +120,9 @@
   },
   {
    "title": "The team builds",
-   "t": "The company says of its team: \"Each has a written job description and a behaviour policy, and each signs its work.\"",
+   "t": "The company says of its team: \"Each has a written job description and signs its work with its own published key, under the behaviour policy every site publishes at /policy/.\"",
    "s": [
-    7,
-    13
+    25
    ]
   },
   {
@@ -441,6 +440,12 @@
    "id": 24,
    "title": "Sovereign Website, home page (read again)",
    "url": "https://sovereignwebsite.ai/",
+   "accessed": "2026-11-23"
+  },
+  {
+   "id": 25,
+   "title": "Sovereign Website, how it works (read again)",
+   "url": "https://sovereignwebsite.ai/how-it-works.html",
    "accessed": "2026-11-23"
   }
  ],

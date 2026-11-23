@@ -28,6 +28,7 @@ Every fact on this site comes from these public pages. This file is written by t
 | 22 | [Sovereign Website, examples](https://sovereignwebsite.ai/examples.html) | 2026-11-20 |
 | 23 | [Sovereign Website, prices (launch offer decided 23 November 2026)](https://sovereignwebsite.ai/pricing.html) | 2026-11-23 |
 | 24 | [Sovereign Website, home page (read again)](https://sovereignwebsite.ai/) | 2026-11-23 |
+| 25 | [Sovereign Website, how it works (read again)](https://sovereignwebsite.ai/how-it-works.html) | 2026-11-23 |
 
 ## Images
 
