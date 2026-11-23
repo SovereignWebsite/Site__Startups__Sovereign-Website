@@ -524,6 +524,10 @@
   {
    "label": "Check your website, from 0 to 5",
    "url": "https://sovereignwebsite.ai/maturity.html#self-check"
+  },
+  {
+   "label": "See the prices",
+   "url": "https://sovereignwebsite.ai/pricing.html"
   }
  ],
  "designs": [
@@ -666,7 +670,10 @@
        20
       ],
       "credit": "Cover photo by YellowBellyPhoto, as credited there.",
-      "thumb_y": 62
+      "thumb_y": 62,
+      "work_img": "img/real/emily-work-phone.webp",
+      "work_alt": "Emily Cruz's site: the Photographs section",
+      "does": "Her stage credits, showreels and photographs, with a button to contact her agent."
      },
      {
       "name": "Sarah Cruz",
@@ -681,9 +688,18 @@
        20
       ],
       "credit": "Images are her own work, as shown on her site.",
-      "thumb_y": 78
+      "thumb_y": 78,
+      "work_img": "img/real/sarah-work-phone.webp",
+      "work_alt": "Sarah Cruz's site: the Packaging design section",
+      "does": "Her packaging, spirits and corporate identity work, section by section."
      }
-    ]
+    ],
+    "status": {
+     "t": "\"Nothing is sold yet.\" Launch offer: £50 or €50, paid once.",
+     "s": [
+      23
+     ]
+    }
    }
   },
   {
