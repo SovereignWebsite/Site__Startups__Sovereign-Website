@@ -650,7 +650,8 @@
        21
       ],
       "credit": "Photo on her site by Matt Hinton Photography, as credited there.",
-      "thumb_y": 70
+      "thumb_y": 70,
+      "thumb_role_hidden": true
      },
      {
       "name": "Emily Cruz",
@@ -680,7 +681,7 @@
        20
       ],
       "credit": "Images are her own work, as shown on her site.",
-      "thumb_y": 60
+      "thumb_y": 78
      }
     ]
    }
