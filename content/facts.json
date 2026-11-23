@@ -45,12 +45,6 @@
    "s": [
     1
    ]
-  },
-  {
-   "t": "**What a visitor can do today:** take the \"one-minute self-check\" on the company's maturity model, which places a website from level 0, \"rented\", to level 5, \"sovereign and proven\".",
-   "s": [
-    19
-   ]
   }
  ],
  "story": [
@@ -842,10 +836,11 @@
   "ring": true
  },
  "next_note": {
-  "t": "The self-check is five questions, answered in order; your level is your first no. It places a website from 0, \"rented\", to 5, \"sovereign and proven\". The company rates its own sites at level 4, \"portable\".",
+  "t": "The self-check is five questions, answered in order: you stop at the first question you answer no, and that is your level. It places a website from 0, \"rented\", to 5, \"sovereign and proven\". The company rates its own sites at level 4, \"portable\".",
   "s": [
    19,
    22
   ]
- }
+ },
+ "next_note_hero_only": true
 }
