@@ -294,7 +294,7 @@ def sources(F, prefix, heading='Sources'):
 
 def source_lines(html):
     """Replace the inline source tokens with one line at the end of each section: "Sources: 2, 7, 13" (design.b, 23 Nov 2026).
-    A section ends where the next h2 starts, or at the end of main."""
+    A section ends at its closing tag, where the next h2 starts, or at the end of main."""
     out, pending, prefix = [], [], ''
     def flush():
         nonlocal pending
@@ -305,7 +305,7 @@ def source_lines(html):
         links = ', '.join(f'<a href="#{prefix}src-{i}" aria-label="source {i}">{i}</a>' for i in ids)
         return f'<p class="srcline">Sources: {links}</p>'
     pos = 0
-    for m in re.finditer(r'<!--C:([^:]*):(\d+)-->|<h2[\s>]|</main>', html):
+    for m in re.finditer(r'<!--C:([^:]*):(\d+)-->|<h2[\s>]|</section>|</article>|</main>', html):
         out.append(html[pos:m.start()])
         if m.group(1) is not None or m.group(2):
             prefix = m.group(1)
