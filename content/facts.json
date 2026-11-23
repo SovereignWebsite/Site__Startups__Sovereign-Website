@@ -7,11 +7,11 @@
  "url": "https://sovereignwebsite.ai/",
  "url_label": "sovereignwebsite.ai",
  "repo": "https://github.com/SovereignWebsite/Site__Startups__Sovereign-Website",
- "updated": "2026-11-20",
+ "updated": "2026-11-23",
  "home": "showroom",
  "description": "An independent brochure about Sovereign Website: websites built by a team of AI agents and owned by the people they are for, from its own public pages.",
  "headline": "Your website, built by agents and owned by you",
- "lede": "A team of AI agents builds a static website, shows the owner five designs and hands it over. The files, the history and the address belong to the owner, who can move it anywhere and change it by talking to their own AI.",
+ "lede": "A team of AI agents builds a static website, shows the owner five designs and hands it over. The files and the history are the owner's, and so is the address if they bring their own domain; they can move it anywhere and change it by talking to their own AI.",
  "quote": {
   "q": "Your website. Built by agents, owned by you.",
   "who": "The headline on sovereignwebsite.ai",
@@ -21,9 +21,9 @@
  },
  "what": [
   {
-   "t": "A team of AI agents builds a website, shows five designs and hands it over. The files, history and address belong to the owner, who can move it anywhere.",
+   "t": "A team of AI agents builds a website, shows five designs and hands it over. The files and the history are the owner's, and so is the address if they bring their own domain. They can move it anywhere.",
    "s": [
-    1
+    24
    ]
   },
   {
@@ -41,9 +41,9 @@
    ]
   },
   {
-   "t": "**Status, as the company states it:** \"Nothing is sold yet. The hosted service under this name, and the pattern's own repository, do not exist yet.\"",
+   "t": "**Status, as the company states it:** \"Launch offer: £50, and €50 on European sites, paid once.\" \"Decided by Dinis Cruz, 23 November 2026.\" And on the same page: \"Nothing is sold yet. The hosted service under this name does not exist yet, and you cannot buy anything on this site today.\"",
    "s": [
-    1
+    23
    ]
   }
  ],
@@ -120,7 +120,7 @@
   },
   {
    "title": "The team builds",
-   "t": "Agents with job descriptions and a behaviour policy build it, each signing its work.",
+   "t": "The company says of its team: \"Each has a written job description and a behaviour policy, and each signs its work.\"",
    "s": [
     7,
     13
@@ -228,6 +228,13 @@
     9,
     10,
     8
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "label": "Launch offer decided: £50, and €50 on European sites, paid once. Nothing is sold yet.",
+   "s": [
+    23
    ]
   }
  ],
@@ -423,6 +430,18 @@
    "title": "Sovereign Website, examples",
    "url": "https://sovereignwebsite.ai/examples.html",
    "accessed": "2026-11-20"
+  },
+  {
+   "id": 23,
+   "title": "Sovereign Website, prices (launch offer decided 23 November 2026)",
+   "url": "https://sovereignwebsite.ai/pricing.html",
+   "accessed": "2026-11-23"
+  },
+  {
+   "id": 24,
+   "title": "Sovereign Website, home page (read again)",
+   "url": "https://sovereignwebsite.ai/",
+   "accessed": "2026-11-23"
   }
  ],
  "identity": {
@@ -698,16 +717,16 @@
     "h2_font": "700 clamp(1.5rem,3.4vw,2.1rem)/1.15 Georgia,serif",
     "h1": "Your website.<br>Built by agents,<br>owned by you.",
     "h1_s": [
-     1
+     24
     ],
-    "sub": "\"Tell a team of agents what you want. They build your site, show you five designs, and hand it over. The files, the history and the address are yours, and you can move it anywhere.\"",
+    "sub": "\"Tell a team of agents what you want. They build your site, show you five designs, and hand it over. The files and the history are yours, and so is the address if you bring your own domain, and you can move it anywhere.\"",
     "offer": {
-     "tag": "Proposal only",
+     "tag": "Launch offer",
      "title": "The launch offer",
      "price": "£50 or €50",
-     "text": "\"Proposed, not decided: £50, and €50 on European sites. It is not on offer today.\" Nothing is sold yet.",
+     "text": "\"Launch offer: £50, and €50 on European sites, paid once.\" Decided by Dinis Cruz, 23 November 2026. \"Nothing is sold yet.\"",
      "s": [
-      1
+      23
      ]
     },
     "hero": "shot",
@@ -829,9 +848,10 @@
     "Your domain, in your own name, when you have one."
    ]
   ],
-  "keys_note": "Quoted from the plain promises on sovereignwebsite.ai.",
+  "keys_note": "Quoted from the plain promises on sovereignwebsite.ai. The repository becomes the owner's at the hand-over, as its How it works page describes.",
   "keys_s": [
-   1
+   1,
+   7
   ],
   "ring": true
  },
